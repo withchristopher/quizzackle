@@ -9,4 +9,4 @@
 https://withchristopher.github.io/quizzackle/ 
 
 ## Landing Page
-![Site logo](/img/background.jpg)
+![Site logo](assets/img/background.jpg)
