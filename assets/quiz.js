@@ -8,12 +8,12 @@ var studentName = "Tony";
 //question list
 
 var questionList = [{
-    question: "Commonly used data types do not include?",
-    choiceA: "strings",
-    choiceB: "booleans",
-    choiceC: "alerts",
-    choiceD: "numbers",
-    correct: "B"
+    question: "The two roles for pair programming?",
+    choiceA: "Leader and trailer",
+    choiceB: "Master and Slave",
+    choiceC: "Pilot and navigator",
+    choiceD: "Driver and navigator",
+    correct: "D"
 }, {
     question: "If a function requires another function to pass a set value, would it be considered a paramter or an argument?",
     choiceA: "The function requires a set value, you would use an argument.",
