@@ -12,8 +12,8 @@ nav {
     background-color: green;
 }
 
-nav h2 {
-    font-size: 4vh;
+nav h1 {
+    font-size: 7vh;
     color: orange;
     text-align: center;
     position: relative;
@@ -39,7 +39,7 @@ main article p {
     height: 100px;
     color: green;
     text-align: center;
-    padding-top: 15vh;
+    padding-top: 5vh;
     padding-bottom: 15vh;
     position: relative;
 }
