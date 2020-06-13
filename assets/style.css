@@ -15,7 +15,7 @@ nav h1 {
     color: white;
     text-align: center;
     position: relative;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Haettenschweiler;
     font-weight: 10;
 }
 
@@ -37,7 +37,7 @@ main h3 {
 
 main article p {
     margin: auto auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Haettenschweiler;
     font-size: large;
     height: 100px;
     color: white;
@@ -63,6 +63,7 @@ main article p {
     margin: 20px 20px;
     background-color: transparent;
     color: white;
+    font-family: Haettenschweiler;
 }
 
 .btn:hover {
