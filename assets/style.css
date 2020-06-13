@@ -2,27 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: navajowhite;
 }
 
 nav {
     margin: 0;
     width: 100%;
     padding: 30px;
-    background-color: green;
 }
 
 nav h1 {
     font-size: 7vh;
-    color: orange;
+    color: white;
     text-align: center;
     position: relative;
-    background-color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 10;
+}
+
+.background {
+    background-image: url('./img/northern-lights.jpg');
+    background-size: cover;
 }
 
 main {
     margin: auto auto;
-    background-color: navajowhite;
     height: 700px;
 }
 
@@ -37,7 +40,7 @@ main article p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     height: 100px;
-    color: green;
+    color: white;
     text-align: center;
     padding-top: 5vh;
     padding-bottom: 15vh;
@@ -53,16 +56,19 @@ main article p {
 
 .btn {
     border-radius: 15px;
-    border: 0.5vh solid green;
+    border: 0.5vh solid white;
     width: 15%;
     text-align: center;
     display: inline-block;
     margin: 20px 20px;
+    background-color: transparent;
+    color: white;
 }
 
 .btn:hover {
     opacity: 50%;
     font-size: larger;
+    color: white;
 }
 
 .center {
@@ -72,4 +78,8 @@ main article p {
     margin-right: auto;
     width: 15%;
     justify-content: center;
+}
+
+.hidden {
+    visibility: hidden;
 }
