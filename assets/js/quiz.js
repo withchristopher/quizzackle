@@ -3,7 +3,7 @@
 // Parameters for name, time, 
 
 var timeStart = 60;
-var studentName = window.prompt("What is your name");
+var studentName = "Tony";
 
 //function for timer
 var timer = function() {};

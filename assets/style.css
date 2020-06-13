@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: navajowhite;
+}
+
+nav {
+    margin: 0;
+    width: 100%;
+    padding: 30px;
+    background-color: green;
+}
+
+nav h2 {
+    font-size: 4vh;
+    color: orange;
+    text-align: center;
+    position: relative;
+    background-color: green;
+}
+
+main {
+    margin: 0;
+    background-color: navajowhite;
+    height: 700px;
+}
+
+main h3 {
+    color: black;
+    position: relative;
+    padding: 10px 10px;
+}
+
+main article p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    height: 100px;
+    color: green;
+    text-align: center;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    position: relative;
+    display: flexbox;
+    flex-wrap: wrap;
+}
+
+article h3 {}
+
+.container {
+    width: 100%;
+    height: 200px;
+    padding: 0px 20px;
+    position: relative;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 15px;
+    border: 0.5vh solid green;
+    width: 150px;
+    margin-top: 30px;
+    text-align: center;
+    display: flexbox;
+}
+
+.btn:hover {
+    opacity: 50%;
+    font-weight: bolder;
+}
