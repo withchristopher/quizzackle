@@ -76,6 +76,20 @@ main article p {
     color: white;
 }
 
+.btn-secondary {
+    border-radius: 15px;
+    border: 0.5vh solid white;
+    width: 15%;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 20px;
+    background-color: transparent;
+    color: white;
+    font-family: Haettenschweiler;
+    text-transform: uppercase;
+    float: right;
+}
+
 .center {
     display: flex;
     padding: 2vh 1vw;

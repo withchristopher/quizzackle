@@ -6,14 +6,37 @@ var timeStart = 100;
 var studentName = "Tony";
 
 //Quizz Function to begin
-document.getElementById("quizStart").addEventListener("click", function startQuiz() {
+startQuiz.addEventListener("click", function startQuiz()) {
 
+};
+
+// timer function
+function startTimer(duration, display) {
+    var timer = duration,
+        minutes, seconds;
+    setInterval(function() {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
         }
-        //function for timer
-        var timer = function() {};
+    }, 1000);
+}
 
-        // function for Javascript questions
-        var questions = function() {};
+window.onclick = function() {
+    var fiveMinutes = 60 * 5,
+        display = document.querySelector('#time');
+    startTimer(fiveMinutes, display);
+}
 
-        //function for results
-        var resut = function() {};
+// function for Javascript questions
+var questions = function() {};
+
+//function for results
+var resut = function() {};
